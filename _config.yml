@@ -1,16 +1,10 @@
 # Site settings
 title: Parallel Games
-email: tirolinko@gmail.com
+email: emil.a.tonev@gmail.com
 url: https://tirolinko.github.io
 description: "Game development, graphics programming and performant code."
-keywords: "your keywords, separated by commas"
+keywords: "game, development, software, graphics, shader, shader, Unity, asset, ecs, programming"
 meta_author: Emil Tonev
-
-# Google webmaster tools
-google_verify: 
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
@@ -20,30 +14,22 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 436D77
+  primary-rgb: "192, 250, 255" #"128,179,255"
+  secondary: 436D77
+  secondary-dark: FB9038
+  background: 0F3D47
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
   social: Around the Web
-  credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 social:
   - title: github
     url: http://github.com/tirolinko
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Mladost 4, bl. 411, vh.7, ap. 52
-  - line: Sofia, Bulgaria 1715
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - title: youtube
+    url: https://www.youtube.com/channel/UCPACWUp6SQD3ASM2EEYFT9Q
 
 # Build settings
 markdown: kramdown
