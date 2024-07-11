@@ -4,8 +4,6 @@ modal-id: 2
 date: 2024-07-10
 img: Planets.png
 alt: image-alt
-project-date: July 2024
-client: Parallel Dev
-category: Unity DOTS System
+title: DOTS Planet Generation
 description: DOTS/ECS-based runtime procedural generation of planets with relief/height maps.
 ---
