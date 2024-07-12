@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    color:  #{{ site.color.primary }};
     background-color: #{{ site.color.background }};
 }
 
@@ -68,41 +69,16 @@ hr.star-light:after {
 }
 
 hr.division-line {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.primary }};
 }
 
 hr.division-line:after {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
     background-color: #fff;
 }
 
 .img-centered {
     margin: 0 auto;
-}
-
-header {
-    text-align: center;
-    color: #fff;
-    background-image: url('img/space_banner.png');
-    background-repeat: no-repeat;
-}
-
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
 }
 
 @media(min-width:768px) {
@@ -148,6 +124,8 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background-image: url('img/space_banner.png');
+    background-repeat: no-repeat;
 }
 
 .navbar a:focus {
@@ -178,7 +156,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.background }};
 }
 
 @media(max-width:767px) {
@@ -368,7 +346,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #fff;
 }
 
 .btn-social {
@@ -471,7 +449,8 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.primary }} !important;
+    color: #{{ site.color.secondary }} !important;
 }
 
 /* Fix modal mouse wheel issues */

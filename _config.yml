@@ -14,11 +14,11 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 436D77
-  primary-rgb: "192, 250, 255" #"128,179,255"
-  secondary: 436D77
-  secondary-dark: FB9038
-  background: 0F3D47
+  primary: f0f0f0 #2dffee 
+  primary-rgb: "240, 240, 240"
+  secondary:  010101 #ff7300
+  accent: FF878B
+  background: 101010
 
 # Footer settings
 footer:
