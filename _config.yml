@@ -23,6 +23,8 @@ social:
     url: http://github.com/tirolinko
   - title: youtube
     url: https://www.youtube.com/channel/UCPACWUp6SQD3ASM2EEYFT9Q
+  - title: envelope
+    url: mailto:emil.a.tonev@gmail.com
 
 # Build settings
 markdown: kramdown
