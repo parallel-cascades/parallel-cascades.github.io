@@ -253,10 +253,14 @@ section.success {
     background-color: #{{ site.color.primary }};
   }
 
-  .btn:hover {
+  .btn:hover,
+  .btn:focus,
+  .btn:active {
     color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
   }
+
+  
 
 .btn-outline {
     margin-top: 15px;
