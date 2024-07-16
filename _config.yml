@@ -37,3 +37,7 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+collections:
+  assets:
+    output: true

@@ -5065,7 +5065,7 @@ readers do not read off random characters that represent icons */
 .fa-signature::before {
   content: "\f5b7"; }
 
-.fa-signs-post::before {
+.fa-signs-asset::before {
   content: "\f277"; }
 
 .fa-map-signs::before {

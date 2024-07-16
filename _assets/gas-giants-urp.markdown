@@ -1,8 +1,6 @@
 ---
-layout: default
 modal-id: 1
 title: Procedural Gas Giants URP
-date: 2024-07-10
 img: Gas Giant.png
 alt: image-alt
 description: Procedural shader for a flowing, fractal brownian motion-based spherical gas giant. Support for Unity's BRP and URP.

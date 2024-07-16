@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 url: "././mail/contact_me.php",
-                type: "POST",
+                type: "asset",
                 data: {
                     name: name,
                     phone: phone,

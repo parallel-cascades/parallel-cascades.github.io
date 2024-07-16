@@ -1,6 +1,4 @@
 ---
-layout: default
-modal-id: 3
 img: Skybox.png
 alt: image-alt
 title: Procedural Skybox URP

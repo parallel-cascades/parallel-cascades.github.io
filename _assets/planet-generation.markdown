@@ -1,7 +1,5 @@
 ---
-layout: default
 modal-id: 2
-date: 2024-07-10
 img: Planets.png
 alt: image-alt
 title: DOTS Planet Generation

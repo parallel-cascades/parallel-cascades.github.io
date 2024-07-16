@@ -1,6 +1,6 @@
 <!-- Portfolio Modals -->
-{% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+{% for asset in site.assets %}
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ asset.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -13,19 +13,19 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>{{ asset.title }}</h2>
             <hr class="division-line">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
+            <img src="img/portfolio/{{ asset.img }}" class="img-responsive img-centered" alt="{{ asset.alt }}">
+            {% if asset.description %}
+            <p>{{ asset.description }}</p>
             {% endif %}
-            {% if post.images %}
+            {% if asset.images %}
             <div class="image-grid">
               <div class="row">
-                {% for image in post.images %}
+                {% for image in asset.images %}
                 <div class="col-md-4 col-sm-6">
-                  <a href="img/portfolio/{{ image }}" data-lightbox="post-{{ post.modal-id }}" data-title="{{ post.title }}">
-                    <img src="img/portfolio/{{ image }}" class="img-responsive" alt="{{ post.title }}">
+                  <a href="img/portfolio/{{ image }}" data-lightbox="asset-{{ asset.modal-id }}" data-title="{{ asset.title }}">
+                    <img src="img/portfolio/{{ image }}" class="img-responsive" alt="{{ asset.title }}">
                   </a>
                 </div>
                 {% endfor %}
