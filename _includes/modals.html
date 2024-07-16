@@ -15,7 +15,7 @@
           <div class="modal-body">
             <h2>{{ asset.title }}</h2>
             <hr class="division-line">
-            <img src="img/portfolio/{{ asset.img }}" class="img-responsive img-centered" alt="{{ asset.alt }}">
+            <img src="img/assets/{{ asset.img }}" class="img-responsive img-centered" alt="{{ asset.alt }}">
             {% if asset.description %}
             <p>{{ asset.description }}</p>
             {% endif %}
@@ -24,8 +24,8 @@
               <div class="row">
                 {% for image in asset.images %}
                 <div class="col-md-4 col-sm-6">
-                  <a href="img/portfolio/{{ image }}" data-lightbox="asset-{{ asset.modal-id }}" data-title="{{ asset.title }}">
-                    <img src="img/portfolio/{{ image }}" class="img-responsive" alt="{{ asset.title }}">
+                  <a href="img/assets/{{ image }}" data-lightbox="asset-{{ asset.modal-id }}" data-title="{{ asset.title }}">
+                    <img src="img/assets/{{ image }}" class="img-responsive" alt="{{ asset.title }}">
                   </a>
                 </div>
                 {% endfor %}
