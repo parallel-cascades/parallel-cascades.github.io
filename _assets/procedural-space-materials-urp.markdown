@@ -9,5 +9,6 @@ images:
   - "gas_giants/ggiant2.png"
   - "gas_giants/ggiant3.png"
   - "gas_giants/ggiant4.png"
+  - "gas_giants/sun1.png"
   - "gas_giants/demo_scene.png"
 ---
