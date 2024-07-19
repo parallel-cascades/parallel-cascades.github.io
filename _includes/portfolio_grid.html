@@ -1,26 +1,28 @@
 <!-- Portfolio Grid Section -->
-<section id="portfolio">
-  <div class="container portfolio-flex-grid">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Projects</h2>
-        <hr class="division-line">
-      </div>
-    </div>
-    <div class="portfolio-flex-row">
-      {% for asset in site.assets %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ asset.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <h3 class="portfolio-item-title">{{ asset.title }}</h3>
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/assets/{{ asset.img }}" class="img-responsive" alt="{{ asset.alt }}">          
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+ <header>
+   <section id="portfolio">
+     <div class="container portfolio-flex-grid">
+       <div class="row">
+         <div class="col-lg-12 text-center">
+           <h2>Projects</h2>
+           <hr class="division-line">
+         </div>
+       </div>
+       <div class="portfolio-flex-row">
+         {% for asset in site.assets %}
+         <div class="portfolio-flex-item portfolio-item">
+           <a href="#portfolioModal-{{ asset.modal-id }}" class="portfolio-link" data-toggle="modal">
+             <h3 class="portfolio-item-title">{{ asset.title }}</h3>
+             <div class="caption">
+               <div class="caption-content">
+                 <i class="fa fa-search-plus fa-3x"></i>
+               </div>
+             </div>
+             <img src="img/assets/{{ asset.img }}" class="img-responsive" alt="{{ asset.alt }}">          
+           </a>
+         </div>
+         {% endfor %}
+       </div>
+     </div>
+   </section>
+ </header>

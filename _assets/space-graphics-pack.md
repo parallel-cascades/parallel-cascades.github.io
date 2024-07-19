@@ -1,6 +1,6 @@
 ---
-modal-id: 2
-title: Procedural Starfield Skybox URP
+modal-id: 3
+title: Space Graphics Pack
 img: starfield_skybox/hero.png
 alt: image-alt
 description: "Modular, procedural and dynamic starfield skybox for URP. Starfield - Voronoi Noise-based field of  dots of stars with varying colours. Nebula field - distant tiny nebula clouds according to a triplanar UV mapping. Two near, large nebula clouds - lots of cloudy detail. Galaxy Background lighting/Galactic Luminous Band - noise based background coloration."

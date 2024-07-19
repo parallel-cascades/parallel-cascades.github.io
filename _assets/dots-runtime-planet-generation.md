@@ -1,5 +1,5 @@
 ---
-modal-id: 2
+modal-id: 1
 title: DOTS Runtime Planet Generation
 img: planet_generation/hero.png
 alt: image-alt
