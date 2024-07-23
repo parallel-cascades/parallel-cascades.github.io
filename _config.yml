@@ -1,7 +1,7 @@
 # Site settings
 title: Parallel Cascades
 email: emil.a.tonev@gmail.com
-url: https://tirolinko.github.io
+url: https://parallel-cascades.github.io
 description: "Unity video game development, shader programming and more, using the latest technologies."
 keywords: "game, development, software, graphics, shader, shader, Unity, asset, ecs, programming"
 meta_author: Emil Tonev
@@ -20,7 +20,7 @@ footer:
 # Social networks usernames
 social:
   - title: github
-    url: http://github.com/tirolinko
+    url: http://github.com/parallel-cascades
   - title: youtube
     url: https://www.youtube.com/channel/UCPACWUp6SQD3ASM2EEYFT9Q
 
