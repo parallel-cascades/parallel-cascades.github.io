@@ -23,6 +23,8 @@ social:
     url: http://github.com/parallel-cascades
   - title: youtube
     url: https://www.youtube.com/channel/UCKGnHCi46kx8paafFJvj3Lg
+  - title: unity
+    url: https://assetstore.unity.com/publishers/103935?preview=1
 
 # Build settings
 markdown: kramdown
