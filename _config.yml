@@ -1,5 +1,6 @@
 # Site settings
 title: Parallel Cascades
+intro: "Creating Games"
 email: emil.a.tonev@gmail.com
 url: https://parallel-cascades.github.io
 description: "Unity video game development, shader programming and more, using the latest technologies."
@@ -10,6 +11,7 @@ meta_author: Emil Tonev
 color:
   primary: ff7b00 #2dffee 
   primary-rgb: "225, 123, 0"
+  navbar: 202020
   secondary:  ffffff
   background: 101010
 
