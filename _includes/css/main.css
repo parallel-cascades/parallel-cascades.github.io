@@ -171,14 +171,18 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    max-width: 800px;
+    width: 100%; /* Ensure the image scales with the item */
+    height: auto; /* Maintain aspect ratio */
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+
 }
+
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
@@ -229,13 +233,14 @@ section.success {
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: space-between;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: flex-start;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
+      flex: 1 0 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
     }
   }
   @media (min-width: 960px) {
