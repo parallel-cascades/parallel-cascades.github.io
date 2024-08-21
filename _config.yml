@@ -43,3 +43,5 @@ defaults:
 collections:
   assets:
     output: true
+  indev:
+    output: true
