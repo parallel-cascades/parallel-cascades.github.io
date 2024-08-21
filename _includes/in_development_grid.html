@@ -1,4 +1,4 @@
-<!-- Portfolio Grid Section -->
+<!-- In Development Grid Section -->
  <section id="indev" class="portfolio">
    <div class="container portfolio-flex-grid">
      <div class="row">
@@ -8,7 +8,7 @@
        </div>
      </div>
      <div class="portfolio-flex-row">
-       {% for asset in site.assets %}
+       {% for asset in site.indev %}
        <div class="portfolio-flex-item portfolio-item">
          <a href="#portfolioModal-{{ asset.modal-id }}" class="portfolio-link" data-toggle="modal">
            <h3 class="portfolio-item-title">{{ asset.title }}</h3>
@@ -17,7 +17,7 @@
                <i class="fa fa-search-plus fa-3x"></i>
              </div>
            </div>
-           <img src="img/assets/{{ asset.img }}" class="img-responsive" alt="{{ asset.alt }}">          
+           <img src="img/indev/{{ asset.img }}" class="img-responsive" alt="{{ asset.alt }}">          
          </a>
        </div>
        {% endfor %}
