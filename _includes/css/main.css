@@ -530,3 +530,14 @@ footer .footer-below {
     z-index: 1;
 }
 
+.price-box {
+    position: absolute;
+    top: 10px; 
+    background-color: #{{ site.color.primary}}; 
+    color: #{{ site.color.secondary}};
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px; 
+    z-index: 3; 
+}
+
