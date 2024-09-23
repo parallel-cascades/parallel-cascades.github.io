@@ -32,14 +32,6 @@ social:
 markdown: kramdown
 permalink: pretty
 
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
-
 collections:
   assets:
     output: true

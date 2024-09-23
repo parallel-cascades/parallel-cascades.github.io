@@ -1,5 +1,4 @@
 ---
-modal-id: 0
 title: Vibrant 4K Starfield Skybox Pack
 img: vibrant_skybox_pack.png
 alt: image-alt
