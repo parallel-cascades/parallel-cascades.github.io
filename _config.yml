@@ -10,7 +10,7 @@ meta_author: Emil Tonev
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 5e17eb #ff7b00 #2dffee 
-  primary-rgb: "225, 123, 0"
+  primary-rgb: "94, 23, 235"
   navbar: 202020
   secondary:  ffffff
   background: 101010
